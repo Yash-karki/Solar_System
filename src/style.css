@@ -1,0 +1,98 @@
+.planet-info {
+    display: none;
+    position: fixed;
+    left: 1%; 
+    top: 25%; 
+    width: 30%; 
+    z-index: 1;
+}
+
+.planet-info-content {
+    background-color: rgb(0, 0, 35);
+    padding: 20px;
+    border: 1px solid #888;
+    box-shadow: 0px 0px 10px 3px rgba(255,255,0,0.5);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    overflow-y: auto; /* For scrolling */
+}
+
+.exoplanet-info {
+    display: none;
+    position: fixed;
+    right: 1%;
+    top: 25%;
+    width: 35%;
+    z-index: 1;
+}
+
+.exoplanet-info-content {
+    background-color: rgb(0, 0, 35);
+    padding: 20px;
+    border: 1px solid #4a9eff;
+    box-shadow: 0px 0px 15px 5px rgba(74,158,255,0.3);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    overflow-y: auto;
+}
+
+.analyze-btn {
+    background-color: #4a9eff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.analyze-btn:hover {
+    background-color: #357abd;
+}
+
+.analysis-result {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgba(74,158,255,0.1);
+    border-left: 3px solid #4a9eff;
+}
+
+.data-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.data-item {
+    font-size: 0.9em;
+}
+
+.data-label {
+    color: #4a9eff;
+    font-weight: bold;
+}
+
+.close-btn {
+    color: lightyellow;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: white; 
+    cursor: pointer;
+}
+
+h2 {
+    color: lightyellow; 
+}
+
+p {
+    color: white; 
+    line-height: 1.5; 
+}
